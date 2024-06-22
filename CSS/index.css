@@ -1,0 +1,580 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+.navbar {
+    background-color: transparent;
+    z-index: 999;
+}
+
+.navbar-brand {
+    width: 15%;
+}
+
+.navbar-brand img {
+    width: 40%;
+    margin-left: 50px;
+}
+
+
+.offcanvas-body ul li a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.offcanvas-body ul li {
+    margin-left: 20px;
+}
+
+.offcanvas-body ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.offcanvas-body ul li a:hover::after {
+    width: 80%;
+}
+
+.active-1::after {
+    content: '';
+    width: 80%;
+    height: 3px;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.log-in a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+.off-nav {
+    width: 70%;
+    margin: auto;
+}
+
+
+.hero-container {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.car-bg {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.image {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/IMG/dig-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-2 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url(/IMG/gt-7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-3 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/gt-9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#carouselExampleIndicators {
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.carousel-caption {
+    top: 36%;
+}
+
+.carousel-caption h5 {
+    overflow: hidden;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-caption p {
+    font-weight: 600;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.wix-h{
+    overflow: hidden;
+}
+
+.wix-h h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+
+
+
+}
+
+
+
+.wix-h p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 5%;
+}
+
+
+
+
+.prof-wrap {
+    background-color: rgb(204, 204, 204);
+    padding: 50px;
+}
+
+
+.founding-card p {
+    font-family: Helvetica Neue, helvetica, arial, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(46, 46, 46);
+    width: 95%;
+    overflow: hidden;
+
+}
+
+
+.founding-card{
+    overflow: hidden;
+}
+
+.founding-card h1 {
+    
+    font-weight: 600;
+    font-family: celuna;
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+
+.gee-im {
+    position: relative;
+    width: 85%;
+    height: 60vh;
+}
+
+.gee-im img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+
+/* for ceo */
+.gee-im-2 {
+    position: relative;
+    width: 65%;
+    height: 85vh;
+}
+
+.gee-im-2 img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec-nav {
+    position: relative;
+    right: 50px;
+}
+
+.style img {
+    width: auto;
+    height: 60vh;
+}
+
+
+
+.img-card img {
+    position: absolute;
+    top: 1%;
+    width: 70px;
+    left: 80px;
+}
+
+.footer-container {
+    border: none;
+    border-radius: 95px 0px 0px 0px;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 45px; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: rgb(1, 1, 66);
+    color: white;
+}
+
+
+.sp-img img {
+    width: 300px;
+}
+
+
+
+.lead-card h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: underline 3px;
+}
+
+
+.rowl {
+    border-bottom: 2px solid white;
+}
+
+
+
+
+/* for scroll to top */
+
+
+.toTop {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    font-size: 1.7rem;
+    color: rgb(2, 64, 221);
+    transition: 0.3s;
+    text-shadow: 0px 0px 10px white;
+    opacity: 0;
+    z-index: 999;
+    animation: toTop 1s ease-in-out alternate infinite;
+}
+
+@keyframes toTop {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.toTop.active {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1300px) {
+
+
+    * {
+        overflow-x: hidden;
+    }
+
+    .gee-im {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+    }
+
+
+
+    .founding-card p {
+        font-family: Helvetica Neue, helvetica, arial, sans-serif;
+        line-height: 30px;
+        font-weight: 400;
+        color: rgb(56, 58, 58);
+        width: 100%;
+
+
+    }
+
+
+
+}
+
+
+@media (max-width:1200px) {
+    .navbar {
+        padding: 10px;
+    }
+
+
+    .offcanvas-body ul li a {
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+
+
+
+    .offcanvas-body ul li {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .offcanvas-body ul {
+        margin-top: 15%;
+    }
+
+
+    .offcanvas-body ul li a:hover::after {
+        width: 80%;
+    }
+
+    .active-1::after {
+        width: 0%;
+    }
+
+
+    .log-in a {
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width:992px) {
+    .rev-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+
+
+    .gee-im-2 {
+        position: relative;
+        width: 95%;
+        height: 80vh;
+    }
+
+    .gee-im-2 img {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: 0.5s;
+    }
+
+
+
+    .footer-container {
+        border-radius: 0px 0px 0px 0px;
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* padding: 45px; */
+        padding-left: 0%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        background-color: rgb(1, 1, 66);
+        color: white;
+    }
+
+    .navbar-brand {
+        width: 30%;
+
+    }
+
+    .navbar-brand img {
+        width: 40%;
+        margin-left: 50px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    .hero-container {
+        height: 70vh;
+    }
+
+
+
+    .carousel-caption h5 {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .carousel-caption {
+        top: 25%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+    .navbar-brand {
+        width: 30%;
+
+    }
+
+    .navbar-brand img {
+        width: 50%;
+        margin-left: 50px;
+    }
+
+}
+
+
+
+
+@media (max-width:438px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .carousel-caption {
+        top: 25%;
+    }
+
+}

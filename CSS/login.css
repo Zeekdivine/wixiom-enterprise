@@ -1,0 +1,233 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(184, 184, 184, 0.49), rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0)), url(../IMG/gal-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0% 10px;
+    margin-top: 2px;
+}
+
+
+.img-card img {
+    position: absolute;
+    top: 1%;
+    width: 70px;
+    left: 80px;
+}
+
+
+form {
+    width: 420px;
+    background: transparent;
+    color: white;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
+    border: 0.01px solid rgb(244, 244, 244);
+    backdrop-filter: blur(10px);
+    animation: bounce 2s ease-in-out;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(30%);
+    }
+}
+
+form h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    background: transparent;
+}
+
+.box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+}
+
+.box input::placeholder {
+    color: white;
+}
+
+.box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+
+.wrapper .r-f {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16.5px;
+    margin: -15px 0 15px;
+    background: transparent;
+}
+
+.r-f label input {
+    accent-color: white;
+    margin-left: 3px;
+    background: transparent;
+}
+
+.r-f a {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+}
+
+.r-f a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-weight: 600px;
+}
+
+.register {
+    font-size: 15.5px;
+    text-align: center;
+    margin: 25px 0 15px;
+}
+
+.register p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600px;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width:992px) {
+    .navbar-brand {
+        width: 30%;
+        
+    }
+
+    .navbar-brand img {
+        width: 40%;
+        margin-left: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+    .navbar-brand {
+        width: 30%;
+        
+    }
+
+    .navbar-brand img {
+        width: 50%;
+        margin-left: 50px;
+    }
+
+
+
+
+
+    form {
+        width: 320px;
+        padding: 40px;
+        
+    }
+
+
+    .r-f input, .r-f label{
+
+        display: none;
+        
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:378px) {
+    .navbar-brand {
+        width: 35%;
+        
+    }
+
+    .navbar-brand img {
+        width: 60%;
+        margin-left: 50px;
+    }
+
+
+
+
+
+    form {
+        width: 280px;
+        padding: 40px;
+            }
+
+    
+
+    
+}

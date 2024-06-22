@@ -1,0 +1,212 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-card img {
+    position: absolute;
+    top: 0%;
+    width: 80px;
+    left: 80px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0% 17.5px;
+    margin-top: 2px;
+}
+
+.bg {
+    height: 85vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../IMG/gt-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* animation: slide 15s infinite;
+    animation-delay: 1s; */
+
+    background-attachment: fixed;
+}
+
+.bg-content {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    max-width: 850px;
+    margin: auto;
+    padding-top: 100px;
+    text-transform: capitalize;
+    animation: bounce 2s ease-in-out;
+}
+
+.bg h2 {
+    font-size: 3.8rem;
+    margin: auto;
+    font-weight: 600;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-card img {
+    position: absolute;
+    top: 0%;
+    width: 71px;
+    left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.brind {
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.brand img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(236, 243, 248);
+    flex-direction: column;
+    background-color: rgba(236, 243, 248, 0.432);
+    gap: 10px;
+    transition: 0.4s;
+    height: 300px;
+}
+
+
+
+.brand h5{
+    text-transform: capitalize;
+    overflow: hidden;
+    padding: 5px;
+
+}
+
+.rol-1 {
+    padding: 60px;
+}
+
+
+
+.brand:hover {
+    border: none;
+    background-color: rgba(255, 255,255);
+    box-shadow: 0px 0px 5px rgba(12, 0, 77, 0.322);
+    
+}
+
+.with-card{
+    padding: 10% 5% 10%;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url(/IMG/with-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.with-us h5{
+    font-family: Poppins, sans-serif;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.with-us h1{
+    font-family: Poppins, sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.with-us p{
+    font-weight: 600;
+}
+
+
+@media (max-width:768px) {
+
+    .bg{
+        height: 60vh;
+    }
+
+    .bg h2 {
+        
+        margin-top: 13%;
+        
+    }
+    
+    
+    .vision{
+        width: 60%;
+        height: 40vh;
+        margin: auto;
+        padding-top: 20px;
+        padding-left: 10px;
+        box-shadow: 0px 0px 10px rgba(213, 208, 208, 0.832);
+        padding-right: 10px;
+        margin-top: 3%;
+        background-color: white;
+    }
+    
+    
+}
+
+
+@media (max-width:500px){
+    .bg h2 {
+        
+        margin-top: 10%;
+        
+    }
+    
+
+
+    .bg{
+        height: 60vh;
+    }
+    .bg h2 {
+        
+        margin-top: 10%;
+        
+    }
+
+
+}
